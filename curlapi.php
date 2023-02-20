@@ -20,9 +20,9 @@ if ($e = curl_error($ch)) {
 	//print_r($decoded);
 	//echo  $decoded[records][0][first_name];
 	foreach ($decoded as $row) {
-		echo '<h2>Consume API</h2>';
-		echo '<div class="container m-3 table-info">';
-		echo '<table class="table table-hover table-striped">';
+		echo '<h1 class="margin: 500px">Consume API</h1>';
+		echo '<div class="container m-3">';
+		echo '<table class="table table table-info table-striped">';
 		echo '<thead>';
 		echo '<tr>';
 		echo '<th>ID</th>';
